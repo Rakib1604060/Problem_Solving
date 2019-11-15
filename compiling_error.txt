@@ -1,0 +1,7 @@
+T:\Competitive_CODING\first_competitive.cpp:4:1: error: expected ';' before 'int'
+ int main(){
+ ^
+T:\Competitive_CODING\first_competitive.cpp: In function 'int main()':
+T:\Competitive_CODING\first_competitive.cpp:5:2: error: 'cout' was not declared in this scope
+  cout<<"hello world";
+  ^
