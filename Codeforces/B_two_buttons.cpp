@@ -2,26 +2,29 @@
 
 using namespace std;
 
+
+
 int main(int argc, char const *argv[])
 {
 	int n,m;
 	cin>>n>>m;
-	if (n==m)
-	{
-		cout<<0;
-		return 0;
-	}else if (n>m)
-	{
-		cout<<n-m;
-		return 0;
-	}
-	else if (n<m)
-	{
-		int diff=m-n;
-		if (diff)
-		{
-			
-		}
-	}
+     int ans=0;
+     
+     while(m>n){
+      if (m%2==1)
+      {
+      	ans++;
+      	m++;
+
+      }else{
+        m=m/2;
+        ans++;
+      }
+
+     }
+     ans=ans+(n-m);
+     cout<<ans<<endl;
+
+
 	return 0;
 }
